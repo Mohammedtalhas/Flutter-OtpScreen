@@ -11,7 +11,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 class OtpScreen extends StatefulWidget {
   final String title;
   final String subTitle;
-  final Future<String> Function(String) validateOtp;
+  final Future<String?> Function(String) validateOtp;
   final void Function(BuildContext) routeCallback;
   Color? topColor;
   Color? bottomColor;
